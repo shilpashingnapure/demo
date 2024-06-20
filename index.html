@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body>
+    <div id="one3d"></div>
+
+    <div class="loading">
+    </div>
+
+    <div class="container">
+      <div>
+        <button onclick="handleInteriorView()" id="Interior-btn">Interior</button>
+        <div id="exterior-btns">
+          <button onclick="handleExteriorView()">Exterior</button>
+          <button onclick="handleFrontSeatView()" id="frontSeat">FrontSeat</button>
+          <button onclick="handleBackSeatView()" id="backSeat" >BackSeat</button>
+        </div>
+      </div>
+      <select id="colors-options"></select>
+    </div>
+  </body>
+</html>
+
+<script src="./index.js"></script>
