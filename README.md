@@ -19,13 +19,7 @@ A project is about to integrate one3d Car model in project
    git clone  https://github.com/shilpashingnapure/one3d-Integration-assignment.git
 ```
 
-### Step 2 : Navigate to Project Directory
-
-```sh
-  cd one3d-Integration-assignment
-```
-
-### Step 3 : Run Project (2 ways)
+### Step 2 : Run Project (2 ways)
     1. Double-click on index.html
-    2. using VScode live-server
+    2. using VScode live-server Extension
 
