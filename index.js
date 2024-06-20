@@ -1,7 +1,7 @@
 const CDN_URL = "https://ee-deploy-website.s3.amazonaws.com/ee_suv/";
 
 // car model colors data
-const colors = [
+const modelColors = [
   {
     name: "Red Crystal",
     id: "RedCrystalMetallic",
@@ -82,7 +82,7 @@ function initializeONE3D() {
 
 // append dynamic option into select tag
 const select = document.querySelector("#colors-options");
-colors.forEach(({ name, id }) => {
+modelColors.forEach(({ name, id }) => {
   const option = document.createElement("option");
   option.value = id;
   option.innerText = name;
