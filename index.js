@@ -29,7 +29,7 @@ const modelColors = [
 ];
 
 // options for hotspot click
-var options = {
+const hotSpotOptions = {
   onEventClicked: ({message}) => {
     handleHotSpotClick(message);
   },
@@ -39,7 +39,7 @@ var options = {
 
 
 // ---------  append one3d function script into html -----------
-var script = document.createElement("script");
+const script = document.createElement("script");
 script.src = CDN_URL + "one3d/assets/SUV/one3d_functions.js";
 script.type = "text/javascript";
 script.onload = function () {
@@ -68,7 +68,7 @@ function initializeONE3D() {
   })
     .then((res) => {
       loadingScreen.style.display = "none";
-      ONE3D.registerClickAction(options);
+      ONE3D.registerClickAction(hotSpotOptions);
     })
     .catch((err) => {
       console.log(err);
